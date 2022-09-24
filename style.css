@@ -9,60 +9,46 @@ body {
   padding: 0;
 }
 .container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 90%;
   margin: 0 auto;
+  margin-top: 7%;
 }
 .grid {
   display: inline-block;
   vertical-align: top;
   width: 12%;
   margin-left: 10%;
-  
-}
-.grid {
-  text-align: center;
 }
 
-.sec-block {
+div[class*="grid3"] {
   text-align: center;
+  /* border: 1px solid green; */
+  margin-top: 200px;
 }
-.grid1 {}
-
 
 h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 p {
   color: rgba(122, 125, 125, 0.612);
+  margin-top: 10px;
 }
 
 .block1-icon {
   font-size: 40px;
   text-align: left;
   color: rgba(255, 247, 8, 0.679);
-}
-
-.block2-icon {
-  /* text-align: center; */
+  padding-bottom: 10px;
 }
 
 .block1-icon {
   text-align: left;
 }
 
-.first-block-h1 {
-  text-align: left;
-}
-
-.first-p {
-  text-align: left;
-  padding-top: 10px;
-}
-
-
 .block2-icon {
+  padding-bottom: 10px;
   font-size: 60px;
   color: rgba(62, 169, 4, 0.703);
 }
